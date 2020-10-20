@@ -1,0 +1,76 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	background-color: hsl(0, 0%, 98%); ;
+	padding: 20px;
+	color: hsl(234, 12%, 34%);
+}
+h1 {
+	font-size: 24px;
+	font-weight: 200;
+	margin: 0;
+}
+h2 {
+	margin: 0;
+}
+p {
+	font-size: 15px;
+	color: hsl(229, 6%, 66%);
+}
+@media screen and (min-width: 421px) {
+.text {
+	width: 600px;
+	margin: auto;
+}
+}
+@media screen and (min-width: 421px) {
+.boxes {
+	position: relative;
+	width: 1120px;
+	margin: auto;
+}
+}
+.box {
+	background-color: white; 
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;
+	margin: 20px 0px;
+	border-top: solid;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	height: 180px;
+	width: 320px;
+	margin: 20px auto;
+}
+.red {
+	border-color: hsl(0, 78%, 62%);
+}
+.blue {
+	border-color: hsl(212, 86%, 64%);
+}
+@media screen and (min-width: 421px) {
+.blue {
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
+}
+.cyan {
+	border-color: hsl(180, 62%, 55%);
+}
+@media screen and (min-width: 421px) {
+.cyan {
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+}
+.orange {
+	border-color: hsl(34, 97%, 64%);
+}
+img {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
