@@ -5,6 +5,12 @@ body {
 	padding: 20px;
 	color: hsl(234, 12%, 34%);
 }
+@media screen and (min-width: 421px) {
+header {
+	width: 1015px;
+	margin: auto;
+}
+}
 h1 {
 	font-size: 24px;
 	font-weight: 200;
